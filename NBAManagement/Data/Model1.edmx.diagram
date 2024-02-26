@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74e1c00ca714459f9f4ade58c25c54db" Name="Diagram1">
+        <EntityTypeShape EntityType="BasketballSystemModel.Country" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="BasketballSystemModel.Player" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BasketballSystemModel.PositionName" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BasketballSystemModel.PositionOfPlayer" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BasketballSystemModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BasketballSystemModel.Team" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="BasketballSystemModel.FK_Player_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="BasketballSystemModel.FK_Player_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="BasketballSystemModel.FK_PositionOfPlayer_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="BasketballSystemModel.FK_PositionOfPlayer_PositionName" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

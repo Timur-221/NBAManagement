@@ -1,0 +1,26 @@
+﻿<Page x:Class="NBAManagement.Pages.MainScrenNBA"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBAManagement.Pages"
+      mc:Ignorable="d" 
+        d:DesignHeight="720" d:DesignWidth="1280"
+  Title="MainScreanNBA">
+
+    <Grid>
+        <Grid Margin="0,0,0,34" HorizontalAlignment="Center" Width="1260" Height="160" VerticalAlignment="Bottom">
+            <Rectangle Height="142" Margin="0,0,0,0" Stroke="Black"/>
+        </Grid>
+        <Rectangle HorizontalAlignment="Center" Width="1280" Fill="#FF6995C2" Height="29" VerticalAlignment="Bottom"/>
+        <Label Content="The current season is 2023–2024, and the NBA already has a history of 78 years" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="29" Width="1280" HorizontalContentAlignment="Center" Foreground="White" FontSize="14" FontFamily="Arial"/>
+        <Label Content="NBA Management System​" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Arial"/>
+        <Label Content="&#x9;Welcome to use this NBA Management system, you can&#xD;&#xA;redirect to different pages according to your role by clicking the buttons bellow.​" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial" HorizontalContentAlignment="Center" Width="1260"/>
+        <Image HorizontalAlignment="Left" Height="224" Margin="76,38,0,0" VerticalAlignment="Top" Width="108" Source="/Image/Logo/logo.jpg"/>
+        <Grid Margin="10,220,10,194">
+            <Rectangle HorizontalAlignment="Center" Height="239" Margin="0,0,0,0" Stroke="#FFBBBBBB" VerticalAlignment="Center" Width="624"/>
+            <Button x:Name="btn_Visitor" Content="Visitor" HorizontalAlignment="Left" Margin="386,0,0,0" VerticalAlignment="Center" Height="71" Width="145" Background="#FF6995C2" FontFamily="Arial" FontWeight="Bold" FontSize="24" Foreground="White" Click="btn_Visitor_Click" />
+            <Button x:Name="btn_Admin" Content="Admin" HorizontalAlignment="Left" Margin="718,0,0,0" VerticalAlignment="Center" Height="71" Width="144" Background="#FF6995C2" FontFamily="Arial" FontWeight="Bold" FontSize="24" Foreground="White"/>
+        </Grid>
+    </Grid>
+</Page>
